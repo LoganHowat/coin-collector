@@ -1,3 +1,5 @@
+const { moduleExpression } = require("@babel/types");
+
 const coins = [
   'quarter',
   'dime',
@@ -14,3 +16,4 @@ const coins = [
 
 // your code
 // export the coins array
+module.exports = coins;
